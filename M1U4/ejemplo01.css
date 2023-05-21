@@ -1,0 +1,40 @@
+h1 {
+    color: rgb(182, 1, 1);
+    /*esto es un comentario en CCS*/
+    background-color: rgb(48, 241, 241);
+    /*color de fondo*/
+    text-align: center; /*centrar el texto*/
+
+}
+
+h2 {
+    color: rgb(16, 126, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*tipo de fuentes*/
+}
+
+p {
+    color: blue;
+    font-size: 22px;
+    /*tamaño de la letra*/
+    line-height: 30px;
+    /*espacio entre lineas*/
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: orangered;
+    text-align: center; /*alinea el texto*/
+    border: 3px solid black; /*para generar los bordes*/
+    padding: 10px; /*espacio entre el borde y el texto*/
+    margin-left: 45px;  /*para dar espacio a los margenes*/
+}
+
+.destacados {
+    color: deeppink;
+    font-weight: bolder;
+    /*negrita*/
+    font-style: italic;
+    /*estlio de fuente*/
+}
