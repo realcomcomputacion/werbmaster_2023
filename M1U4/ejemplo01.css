@@ -1,14 +1,34 @@
+img {
+    border: 1px solid black;
+    /*para generar los bordes*/
+    margin-left: 200px;
+    /*para dar espacio a los margenes*/
+}
+
 h1 {
     color: rgb(182, 1, 1);
     /*esto es un comentario en CCS*/
     background-color: rgb(48, 241, 241);
     /*color de fondo*/
-    text-align: center; /*centrar el texto*/
+    text-align: center;
+    /*centrar el texto*/
 
 }
 
 h2 {
     color: rgb(16, 126, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*tipo de fuentes*/
+}
+
+h3 {
+    color: rgb(218, 20, 20);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*tipo de fuentes*/
+}
+
+h4 {
+    color: rgb(121, 4, 111);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*tipo de fuentes*/
 }
@@ -21,18 +41,14 @@ p {
     /*espacio entre lineas*/
 }
 
-div {
-    width: 300px;
-    height: 300px;
-    background-color: orangered;
-    text-align: center; /*alinea el texto*/
-    border: 3px solid black; /*para generar los bordes*/
-    padding: 10px; /*espacio entre el borde y el texto*/
-    margin-left: 45px;  /*para dar espacio a los margenes*/
+li {
+    font-weight: bolder;
+    font-style: italic;
 }
 
+
 .destacados {
-    color: deeppink;
+    color: rgb(179, 3, 3);
     font-weight: bolder;
     /*negrita*/
     font-style: italic;

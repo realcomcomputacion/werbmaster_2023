@@ -1,0 +1,26 @@
+p {
+    width: 200px;
+    height: 80px;
+    background-color: orangered;
+    text-align: center;
+    /*alinea el texto*/
+    border: 2px solid black;
+    /*para generar los bordes*/
+    padding: 10px;
+    /*espacio entre el borde y el texto*/
+    margin-left: 45px;
+    /*para dar espacio a los margenes*/
+}
+div {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(24, 3, 100);
+    text-align: center;
+    /*alinea el texto*/
+    border: 2px solid black;
+    /*para generar los bordes*/
+    padding: 10px;
+    /*espacio entre el borde y el texto*/
+    margin-left: 45px;
+    /*para dar espacio a los margenes*/
+}
