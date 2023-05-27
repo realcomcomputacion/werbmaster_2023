@@ -1,17 +1,27 @@
+/*
+font-family: 'Crete Round', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Rokkitt', serif;
+font-family: 'Lobster', cursive;
+*/
+
 img {
     border: 1px solid black;
     /*para generar los bordes*/
     margin-left: 200px;
     /*para dar espacio a los margenes*/
+    box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px 10px 10px 10px;
 }
 
 h1 {
     color: rgb(182, 1, 1);
     /*esto es un comentario en CCS*/
     background-color: rgb(48, 241, 241);
-    /*color de fondo*/
+       /*color de fondo*/
     text-align: center;
     /*centrar el texto*/
+    font-family: 'Crete Round', serif;
 
 }
 
@@ -19,12 +29,14 @@ h2 {
     color: rgb(16, 126, 2);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*tipo de fuentes*/
+    font-family: 'Libre Baskerville', serif;
 }
 
 h3 {
     color: rgb(218, 20, 20);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*tipo de fuentes*/
+    font-family: 'Lobster', cursive;
 }
 
 h4 {

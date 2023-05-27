@@ -10,11 +10,12 @@ p {
     /*espacio entre el borde y el texto*/
     margin-left: 45px;
     /*para dar espacio a los margenes*/
-}
+    border-radius: 0px 10px 10px 10px;
+    }
 div {
     width: 200px;
     height: 20px;
-    background-color: rgb(24, 3, 100);
+    background-color: rgb(84, 58, 179);
     text-align: center;
     /*alinea el texto*/
     border: 2px solid black;
