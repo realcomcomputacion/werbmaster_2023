@@ -1,0 +1,46 @@
+#contenedor {
+	border: 2px solid black;
+	width: 1350px;
+	height: 150px;
+	background-color: rgb(243, 243, 243);
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	
+}
+
+
+#rojo {
+	margin: 0 auto;
+	height: 150px;
+	width: 150px;
+	background-color: red;
+	text-align: center;
+	margin-left: 0%;
+
+}
+
+#azul {
+	margin: 0 auto;
+	height: 150px;
+	width: 150px;
+	background-color: blue;
+	text-align: center;
+
+}
+
+#verde {
+	margin: 0 auto;
+	height: 150px;
+	width: 150px;
+	background-color: green;
+	text-align: center;
+	margin-right: 0%;
+}
+
+p {
+	color: white;
+	padding: 50px;
+	font-family: 'Libre Baskerville', serif;
+}

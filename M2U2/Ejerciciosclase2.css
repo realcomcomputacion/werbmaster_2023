@@ -1,0 +1,40 @@
+#contenedor {
+    border: 2px solid black;
+    width: 450px;
+    height: 450px;
+    background-color: rgb(243, 243, 243);
+	display: inline-flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	
+}
+
+#rojo {
+	margin:0 auto;
+	height:150px;
+	width:150px;
+	background-color: red;
+	text-align: center;     
+    }
+
+#azul {
+	margin:0 auto;
+    height:150px;
+	width:150px;
+	background-color: blue;
+	text-align: center;
+}
+
+#verde {
+	margin:0 auto;
+	height:150px;
+	width:150px;
+	background-color: green;
+	text-align: center;
+}
+
+p {
+	color: white;
+	padding: 50px;
+	font-family: 'Libre Baskerville', serif;
+}
