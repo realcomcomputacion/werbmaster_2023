@@ -22,8 +22,12 @@ h1 {
     text-align: center;
     /*centrar el texto*/
     font-family: 'Crete Round', serif;
+    animation-name: MiAnimacion;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 
 }
+
 
 h2 {
     color: rgb(16, 126, 2);
@@ -67,6 +71,20 @@ li {
     /*estlio de fuente*/
 }
 
+@keyframes MiAnimacion {
+    from {
+        font-size: 0%;
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    /* Animacion del titulo */
+}
+
 @media screen and (min-width: 230px) and (max-width: 1200px) {
 
     body {
@@ -108,6 +126,8 @@ li {
         width: 50%;
 
     }
+
+    /* Achicamiento de la imagen cuando se va minimizando */
 
 
 }
