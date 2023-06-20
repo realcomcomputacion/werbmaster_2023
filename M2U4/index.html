@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+    <ul class="nav justify-content-center bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <!-- <ul class="nav justify-content-center"> -->
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: white;">Nosotros</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;">Escuelas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;">Dojo</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;">Contacto</a>
+        </li>
+
+    </ul>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagen/ninja.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imagen/sokekatana.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imagen/sokekatanwaki.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col" style="background-color: rgb(3, 184, 160);">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Kyu</th>
+                            <th scope="col">Dan</th>
+                            <th scope="col">Shidoshi</th>
+                            <th scope="col">Shihan</th>
+                            <th scope="col">Dai Shihan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1° a 9°</td>
+                            <td>1° a 4°</td>
+                            <td>5°a 9°</td>
+                            <td>10° a 15°</td>
+                            <td>Sin graduacion</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col" style="background-color: rgb(250, 3, 250);">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccione el tema</option>
+                    <option value="1">Samurai</option>
+                    <option value="2">Shinobi</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="background-color: orangered;">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Togakure Ryu Ninjutsu
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong> Togakure Ryu Ninjutsu (La escuela de
+                            la Puerta Escondida)</strong> Fue fundada por Togakure Daisuke que era un vasallo de Kiso
+                        Yoshinaka.
+                        Después de haber perdido una batalla , aprendió varias artes militares tales como Koshijutsu y
+                        Kenjutsu de su tio Kagakure Doshi, se oculto en Iga a principio del siglo XII. Inicialmente se
+                        le llamo Togakure Ryu Happo Hiken pero se le denominó de varias maneras. Los ninjas de Iga,
+                        tales como Momochi Sandayu y otros, estudiaron el Ryu y lo pasaron a la familia Hattori del clan
+                        Kishu, y luego en el siglo XVII a la familia Toda. La prueba del Sakki Test que utiliza Hatsumi
+                        Sensei 34° Soke del Ryu, se encuentra dentro del pergamino de Togakure. Principales Enseñanzas
+                        de Togakure Ryu: - La violencia debe ser evitada y Ninpo es Bujutsu. - Emplear el sable solo
+                        para la paz y la defensa del pais, la familia y la naturaleza.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Gyokushin Ryu Ninjutsu
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Gyokushin Ryu Ninjutsu (La escuela del
+                            Corazón Indomable)</strong> Es una facción del Kosshijutsu y fue fundada por Saaki Orouemon
+                        Akiyari. Se
+                        cree que esta escuela tuvo su difusión en las zonas de Kishu y Takeda alrededor del año 1600. Se
+                        dice que en estas fechas toma contacto con el Togakure Ryu. Una característica del Ryu se
+                        encuentra en el tipo de arma que usa, el Nagenawa (el lazo). Se sabe que esta escuela hizo más
+                        énfacis sobre la forma del espionaje e infiltración.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Kumagokure Ryu Ninjutsu
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Kumogakure Ryu Ninjutsu (La escuela
+                            escondida en las nubes)</strong> Fue fundada en el siglo XVI por Iga Heinaizaemon Ienaga,
+                        quien se cree que es el fundador de Iga Ryu Ninpo. Se cree que este ryu fue formado por la
+                        familia Toda
+                        basandose en sus conocimientos de Togakure Ryu. Los guerreros de Kumogakure utilizaban en sus
+                        brazos protecciones que tambien servian para golpear al adversario. Otra caracteristica es el
+                        doble bloqueo y ataque. Armas especificas de este ryu: - Kama Yari (lanza con ganchos) - Ippon
+                        Sugi Noburi (se utilizaba para trepar a los arboles) - Mascara del Demonio ¨kikaku Ken¨ (la idea
+                        del nombre era el uso de golpes con la cabeza y no el uso de mascaras)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-9" style="background-color: rgb(236, 40, 210);">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="Aronno" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="validationCustom02" value="Pablo" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Usuario</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            <input type="text" class="form-control" id="validationCustomUsername"
+                                aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Pais</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">Ciudad</label>
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>...</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom05" class="form-label">Codigo Postal</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid zip.
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Aceptar terminos y condiciones
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-3" style="background-color: rgb(230, 214, 2);">
+                <div class="card" style="width: 15rem;">
+                    <img src="imagen/membership2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Tarjeta</h4>
+                        <a href="#" class="btn btn-primary">Subir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
