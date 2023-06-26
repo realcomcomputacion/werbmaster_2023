@@ -66,3 +66,27 @@ nav ul li a.activo {
     max-width: 960px;
     margin: 0 auto;
 }
+
+h2 {
+    color: blue;
+    font-weight: 400;
+}
+
+.columnas {
+    display: flex;
+ justify-content: space-between;   
+}
+
+.bienvenidos {
+    width: 75%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(128, 255, 255);
+}
+
+.instructor {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(181, 230, 154);
+}
