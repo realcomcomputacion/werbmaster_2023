@@ -90,3 +90,36 @@ h2 {
     box-sizing: border-box;
     background-color: rgb(181, 230, 154);
 }
+
+/* inicio escuelas */
+.ryuha p {
+font-size: 18px;
+}
+
+.nueveescuelas {
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+
+.escuela {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.escuela img {
+    border-radius: 10%;
+    max-width: 60%;
+    box-shadow: 0 0 5px black;
+}
+
+.escuela p {
+    font-size: 13px;
+    }
+
+/* fin escuelas */
