@@ -21,6 +21,7 @@ header h1 {
     bottom: 35px;
     margin-left: 10px;
 }
+
 nav {
     background-color: grey;
     margin-bottom: 20px;
@@ -74,7 +75,11 @@ h2 {
 
 .columnas {
     display: flex;
- justify-content: space-between;   
+    justify-content: space-between;
+}
+
+.homeimg img {
+    border-radius: 5px;
 }
 
 .bienvenidos {
@@ -82,6 +87,12 @@ h2 {
     padding: 10px;
     box-sizing: border-box;
     background-color: rgb(128, 255, 255);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.bienvenidos p {
+    font-size: 13px;
 }
 
 .instructor {
@@ -89,17 +100,53 @@ h2 {
     padding: 10px;
     box-sizing: border-box;
     background-color: rgb(181, 230, 154);
+    border-radius: 5px;
+    border: 1px solid white;
 }
+
+.instructor p {
+    font-size: 13px;
+}
+
+/* inicio bujinkan */
+
+.bujinkan {
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background-color: rgb(181, 230, 154);
+}
+
+.bujinkan h3 {
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.bujinkan img {
+    border-radius: 5px;
+}
+
+.bujinkan p {
+    font-size: 13px;
+}
+
+/* fin bujinkan */
 
 /* inicio escuelas */
 .ryuha p {
-font-size: 18px;
-}
+    font-size: 25px;
+    font-style: italic;
+    }
 
 .nueveescuelas {
-   display: flex;
-   flex-wrap: wrap;
-   
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .escuela {
@@ -120,6 +167,6 @@ font-size: 18px;
 
 .escuela p {
     font-size: 13px;
-    }
+}
 
 /* fin escuelas */
