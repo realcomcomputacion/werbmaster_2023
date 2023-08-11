@@ -6,3 +6,18 @@ body {
 a {
   color: #00B7FF;
 }
+
+button {
+  background-color: aqua;
+  font-style: italic;
+  font-weight: bold;
+  }
+  
+  p {
+   
+    display: inline-block;
+   background-color: rgb(196, 247, 164);
+   padding: 5px;
+   border: 1px solid;
+    
+     }
